@@ -2,7 +2,9 @@
 
 ## 概要
 
-[ComfyUI](https://github.com/comfyanonymous/ComfyUI)のCustomNode  
+[ComfyUI](https://github.com/comfyanonymous/ComfyUI)のCustomNode
+
+![](./sample.png)
 
 指定したディレクトリにあるプロンプト(txt)と画像(png)を読み込みます。   
 indexを指定することで、指定したファイルを出力します。
@@ -46,7 +48,7 @@ git clone educator-art/ComfyUI-Load-DirectoryFiles ./custom_node
 
 ComfyUIの[basic_api_example.py](https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/basic_api_example.py)を参考にしてComfyUIのAPIを活用したプログラムを作成し、指定した枚数の画像生成を自動化しました。 これにより、当初の目的を実現できました。
 
-※ 応用は拡張機能の範囲外となりますので、詳しい方法は割愛します。
+※ [応用](https://note.com/educator/n/ncf9a3ef40191)は拡張機能の範囲外となりますので、詳しい方法は割愛します。
 
 ## ライセンス
 
