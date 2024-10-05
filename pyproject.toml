@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-load-directoryfiles"
+description = "This node loads prompts (txt) and images (png) from a specified directory. By specifying an index, it outputs the selected file."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/educator-art/ComfyUI-Load-DirectoryFiles"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Load-DirectoryFiles"
+Icon = ""
