@@ -65,8 +65,9 @@ class LoadImageAndPromptsFromDirectory_Advanced:
         return torch.from_numpy(np.array(image).astype(np.float32) / 255.0).unsqueeze(0)
 
     def load_data(self, dir, files_index):
-        if self.max_len == 0:
-            self.check_directory(dir)
+        
+        # 2024/10/06 毎回、読み込むように修正する
+        self.check_directory(dir)
 
         text_name = os.path.splitext(
             os.path.basename(self.text_files_path[files_index])
