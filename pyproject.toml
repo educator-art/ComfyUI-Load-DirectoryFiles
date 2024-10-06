@@ -9,6 +9,6 @@ Repository = "https://github.com/educator-art/ComfyUI-Load-DirectoryFiles"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "educator-art"
 DisplayName = "ComfyUI-Load-DirectoryFiles"
 Icon = ""
