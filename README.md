@@ -41,7 +41,7 @@ indexを指定することで、指定したファイルを出力します。
 ## 導入
 
 ```
-git clone educator-art/ComfyUI-Load-DirectoryFiles ./custom_node
+git clone https://github.com/educator-art/ComfyUI-Load-DirectoryFiles ./custom_nodes/ComfyUI-Load-DirectoryFiles
 ```
 
 ## 応用
